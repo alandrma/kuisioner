@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"gin-gorm-mysql/business"
-	"gin-gorm-mysql/models"
+	"kuisioner/business"
+	"kuisioner/models"
 	"net/http"
 	"strconv"
 

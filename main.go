@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gin-gorm-mysql/routes"
+	"kuisioner/routes"
 
 	"github.com/gin-gonic/gin"
 )

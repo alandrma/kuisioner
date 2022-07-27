@@ -1,8 +1,8 @@
 package business
 
 import (
-	"gin-gorm-mysql/database"
-	"gin-gorm-mysql/models"
+	"kuisioner/database"
+	"kuisioner/models"
 
 	"gorm.io/gorm"
 )

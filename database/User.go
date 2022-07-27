@@ -2,17 +2,17 @@ package database
 
 import (
 	"fmt"
-	"gin-gorm-mysql/config"
-	"gin-gorm-mysql/models"
+	"kuisioner/config"
+	"kuisioner/models"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
 
-const DB_USERNAME = "root"
-const DB_PASSWORD = "alandrma"
-const DB_NAME = "coba"
-const DB_HOST = "127.0.0.1"
+const DB_USERNAME = "user_quiz"
+const DB_PASSWORD = "KelapaIjo"
+const DB_NAME = "quiz"
+const DB_HOST = "10.9.20.30"
 const DB_PORT = 3306
 
 func InitDb() *gorm.DB {
